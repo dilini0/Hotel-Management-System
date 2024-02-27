@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboardContext" prefHeight="458.0" prefWidth="664.0" style="-fx-background-color: #B0DAF2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xyz.blue.controller.DashboardFormController">
+   <children>
+      <Label layoutY="-2.0" prefHeight="32.0" prefWidth="670.0" style="-fx-background-color: #052E49;" text="Dashboard" textFill="#f8f7f7">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="222.0" layoutY="60.0" prefHeight="75.0" prefWidth="212.0" text="BlueBird Hotel" textAlignment="JUSTIFY" textFill="#095c75" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="manageGuestsDashboard" layoutX="140.0" layoutY="306.0" prefHeight="123.0" prefWidth="151.0" style="-fx-background-color: #052E49;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="99.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asserts/security/manageguests.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="16.0" layoutY="92.0" prefHeight="17.0" prefWidth="119.0" text="Manage Guests" textFill="#e1e1e1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="reservationDashboard" layoutX="464.0" layoutY="135.0" prefHeight="123.0" prefWidth="151.0" style="-fx-background-color: #58867A;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="91.0" layoutX="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asserts/security/manageresevation.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="12.0" layoutY="92.0" prefHeight="21.0" prefWidth="127.0" text="Manage Reservation" textFill="#fffafa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="roomCDashboard" layoutX="34.0" layoutY="135.0" prefHeight="123.0" prefWidth="151.0" style="-fx-background-color: #8FAEA6;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="99.0" layoutX="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asserts/security/roomcategories.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="16.0" layoutY="77.0" prefHeight="32.0" prefWidth="119.0" text="Room Categories" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="manageRoomDashboard" layoutX="260.0" layoutY="135.0" prefHeight="123.0" prefWidth="151.0" style="-fx-background-color: #B7A8AC;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="84.0" layoutX="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asserts/security/mangerooms.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="85.0" prefHeight="17.0" prefWidth="119.0" text="Manage Rooms" textFill="#f8f0f0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="249.0" fitWidth="165.0" layoutX="-13.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/security/logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="manageUsersDashboard" layoutX="385.0" layoutY="306.0" prefHeight="123.0" prefWidth="144.0" style="-fx-background-color: #7D5A63;">
+         <children>
+            <Label layoutX="16.0" layoutY="77.0" prefHeight="41.0" prefWidth="127.0" text="Manage users" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asserts/security/manageusers.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
